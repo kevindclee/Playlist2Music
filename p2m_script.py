@@ -21,32 +21,16 @@ def main():
     cur_date = datetime.today()
 
     timestamps = [
-        "[00:00] Let's Be Friends",
-        "[03:58] 나쁘지 않아",
-        "[07:34] 지친하루",
-        "[10:45] 봄아",
-        "[14:10] 오늘도 꿈에서 그대가",
+        "[00:00] Lets Be Friends",
+        "[03:58] Running Over Time",
+        "[07:34] Too Good At Old Town",
+        "[10:45] Electric Summertime",
+        "[14:10] Feel Coffee",
         "[17:54] Be with you",
-        "[21:16] 그 밤을 내게 줘요",
+        "[21:16] Too Close Driving",
         "[25:18] Kiss me Kiss me",
-        "[29:07] 나를 쏘다",
-        "[32:31] 내 기억속의 소년",
-        "[37:05] Dive in",
-        "[41:02] 별 같아서",
-        "[44:50] 잠",
-        "[48:10] 소년",
-        "[52:12] 숲",
-        "[55:09] 모닥불",
-        "[59:49] 비",
-        "[1:02:34] 기다림",
-        "[1:05:50] 휘",
-        "[1:10:03] 지금은 아무것도 몰라도",
-        "[1:13:18] 마음이 내려 쌓이면",
-        "[1:16:55] 너와 함께",
-        "[1:22:11] I Love You",
-        "[1:25:27] 잠자리 지우개",
-        "[1:30:17] 바다야 안녕",
-        "[1:34:06] 네가 없는 하루"
+        "[29:07] Whispers in the Wind",
+        "[32:31] Echoes of Twilight",
     ]
 
     time_lst = [extract_time(cur_date, ts) for ts in timestamps]
