@@ -9,7 +9,10 @@ Playlist2Music parses the provided timestamp list to extract the start time for 
 2. Edit `timestamp` list in `p2m_script.py` file
     - Enter the start time for each music file in your playlist
     - **Optional**: Enter title for each music file next to the start time
-3. Run p2m_script.py
+3. Edit input file name in `command` to your video file name
+    - `command = "ffmpeg -i YourTargetVideoFile.mp4 -ss 00:00:00 -to 00:03:45.0 -q:a 0 -map a sample.mp3".split()`
+    - Edit `YourTargetVideoFile.mp4`
+4. Run p2m_script.py
     - **Optional**: Run `p2m_rename.py` to rename all output files to music title
 
 ## Example
