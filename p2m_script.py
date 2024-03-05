@@ -38,7 +38,7 @@ def main():
 
     # ffmpeg -i sample.avi -q:a 0 -map a sample.mp3
     # ffmpeg -i sample.avi -ss 00:03:05 -to 00:03:45.0 -q:a 0 -map a sample.mp3
-    command = "ffmpeg -i issac2.mp4 -ss 00:00:00 -to 00:03:45.0 -q:a 0 -map a sample.mp3".split()
+    command = "ffmpeg -i YourTargetVideoFile.mp4 -ss 00:00:00 -to 00:03:45.0 -q:a 0 -map a sample.mp3".split()
 
     index = 0
     for i in range(len(time_lst) -1):
